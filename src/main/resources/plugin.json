@@ -5,16 +5,8 @@
   "author": "houssemby",
   "website": "https://dima-toon.com",
   "resources": [
-    {
-      "name": "DimaToon.kt",
-      "type": "kotlin",
-      "path": "src/main/kotlin/com/lagradost/cloudstream3/providers/DimaToon.kt"
-    },
-    {
-      "name": "build.gradle.kts",
-      "type": "gradle",
-      "path": "build.gradle.kts"
-    }
+    "src/main/kotlin/com/lagradost/cloudstream3/providers/DimaToon.kt",
+    "build.gradle.kts"
   ],
   "updateUrl": "https://raw.githubusercontent.com/houssemby/DimaToon-Extension/main/plugin.json"
 }
