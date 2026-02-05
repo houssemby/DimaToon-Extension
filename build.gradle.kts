@@ -2,7 +2,7 @@ plugins {
     kotlin("jvm") version "1.8.21"
 }
 
-group = "com.github.houssemby"
+group = "com.lagradost"
 version = "1.0.0"
 
 repositories {

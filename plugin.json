@@ -4,11 +4,17 @@
   "description": "Arabic cartoons from dima-toon.com",
   "author": "houssemby",
   "website": "https://dima-toon.com",
-  "updateUrl": "https://raw.githubusercontent.com/houssemby/DimaToon-Extension/main/plugin.json",
-  "manifestUrl": "https://raw.githubusercontent.com/houssemby/DimaToon-Extension/main/plugin.json",
-  "icon": "https://www.google.com/s2/favicons?domain=dima-toon.com&sz=64",
   "resources": [
-    "src/main/kotlin/com/lagradost/cloudstream3/providers/DimaToon.kt",
-    "build.gradle.kts"
-  ]
+    {
+      "name": "DimaToon.kt",
+      "type": "kotlin",
+      "path": "src/main/kotlin/com/lagradost/cloudstream3/providers/DimaToon.kt"
+    },
+    {
+      "name": "build.gradle.kts",
+      "type": "gradle",
+      "path": "build.gradle.kts"
+    }
+  ],
+  "updateUrl": "https://raw.githubusercontent.com/houssemby/DimaToon-Extension/main/plugin.json"
 }
