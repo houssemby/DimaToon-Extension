@@ -1,0 +1,7 @@
+{
+  "name": "DimaToon",
+  "version": "1.0.0",
+  "description": "Arabic cartoons from dima-toon.com",
+  "website": "https://dima-toon.com",
+  "updateUrl": "https://raw.githubusercontent.com/houssemby/DimaToon-Extension/main/plugin.json"
+}
